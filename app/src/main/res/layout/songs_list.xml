@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical"
+    tools:context=".SongsList">
+
+    <TextView
+        android:id="@+id/all_songs_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/forty"
+        android:fontFamily="@font/sf_new_republic"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/forty_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/two_dp"
+        android:layout_marginTop="@dimen/thirty"
+        android:background="@color/view_tag_color" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ten">
+
+    </ListView>
+</LinearLayout>

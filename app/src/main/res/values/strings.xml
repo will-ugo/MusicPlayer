@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="shape_of_you">Shape of you</string>
+    <string name="ed_sheeran">ed sheeran</string>
+    <string name="ii">II</string>
+    <string name="about_song">About this song</string>
+    <string name="details_ed_sheeran">Shape of you | Ed Sheeran | 3:55 mins</string>
+    <string name="details_marshmello"><![CDATA[Friends | Marshmello & Anne-Marie | 3:22 mins]]></string>
+    <string name="details_baloji">L\'Hiver Indien | Baloji | 3:23 mins</string>
+    <string name="details_burna">Ye | Burna Boy | 3:52 mins</string>
+    <string name="details_maroon">What lovers do | Maroon 5 ft. Sza | 3:15 mins</string>
+    <string name="details_portugal">Live in the moment | Portugal. The Man | 4:06 mins</string>
+    <string name="all_songs">All Songs</string>
+    <string name="details_anitta">Medicina | Anitta | 2:21 mins</string>
+    <string name="khaled_details">No Brainer | dj khaled ft. justin bieber, chance the rapper, quavo | 4:20 mins</string>
+    <string name="juice_details">Lucid Dreams | Juice WRLD | 3:59 mins</string>
+    <string name="magic_details">Kiss Me | MAGIC! | 3:24 mins</string>
+    <string name="ed_sheeran_time">3:55</string>
+    <string name="Friends">Friends</string>
+    <string name="marshmello_and_anne_marie">marshmello &amp; anne-marie</string>
+    <string name="marshmello_time">3:22</string>
+    <string name="pause_and_play">Pause and Play Button</string>
+    <string name="fast_forward">Fast Forward Button</string>
+    <string name="rewind">Rewind Button</string>
+    <string name="now_playing_activity">Now Playing Activity</string>
+    <string name="songs_list_activity">Songs List Activity</string>
+</resources>

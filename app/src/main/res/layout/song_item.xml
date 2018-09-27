@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:orientation="vertical"
+    android:padding="@dimen/ten">
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/twenty_sp" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/song_name"
+        android:layout_marginTop="@dimen/ten"
+        android:fontFamily="@font/sf_new_republic"
+        android:paddingEnd="@dimen/twenty"
+        android:paddingLeft="@dimen/twenty"
+        android:paddingStart="@dimen/twenty"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/fifteen_sp"
+        android:paddingRight="@dimen/twenty" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/fifteen"
+        android:layout_marginRight="@dimen/fifteen"
+        android:layout_marginTop="@dimen/fifteen"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/eighteen_sp" />
+
+</RelativeLayout>

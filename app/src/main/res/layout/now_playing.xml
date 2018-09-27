@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    android:padding="5dp"
+    tools:context=".NowPlaying">
+
+    <TextView
+        android:id="@+id/now_playing_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_new_republic"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_color"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/song_name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/now_playing_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/text_color"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/artist_name_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/song_name_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/music_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artist_name_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/music_logo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/rewind_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/seekbar_id"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/buttons_layout"
+        android:contentDescription="@string/rewind"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/pause_and_play_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/seekbar_id"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/rewind_button"
+        android:layout_toRightOf="@id/rewind_button"
+        android:background="@drawable/buttons_layout"
+        android:contentDescription="@string/pause_and_play"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/fast_forward_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/seekbar_id"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/pause_and_play_button"
+        android:layout_toRightOf="@id/pause_and_play_button"
+        android:background="@drawable/buttons_layout"
+        android:contentDescription="@string/fast_forward"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/details_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rewind_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/details_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_new_republic"
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+</RelativeLayout>
